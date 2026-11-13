@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.luxiad\.eu$ [NC]
+RewriteRule ^ https://luxiad.eu%{REQUEST_URI} [R=301,L,NE]
+RewriteCond %{HTTP_HOST} ^luxiad\.eu$ [NC]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+RewriteRule ^ https://luxiad.eu%{REQUEST_URI} [R=301,L,NE]
+</IfModule>

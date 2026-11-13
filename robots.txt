@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luxiad.eu/sitemap.xml
+
+# Version concise, structurée et lisible par les assistants IA.
+LLMs-Txt: https://luxiad.eu/llms.txt

@@ -1,0 +1,19 @@
+footer,
+footer a,
+footer nav,
+footer div {
+  color: #ffffff !important;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+
+footer > p {
+  color: #fbbf24 !important;
+}
+
+footer a:hover,
+footer a:focus-visible {
+  color: #ffffff !important;
+}
